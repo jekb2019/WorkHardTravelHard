@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Work-Travel-Todo",
-    "slug": "Work-Travel-Todo",
+    "name": "Work Travel Todo",
+    "slug": "wttapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,11 +22,14 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.jekb2019.wttapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A to-do app that will make you work hard and travel hard!",
+    "githubUrl": "https://github.com/jekb2019/WorkHardTravelHard"
   }
 }
